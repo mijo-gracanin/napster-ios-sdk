@@ -1,0 +1,6 @@
+framework module NapsterKit {
+  umbrella header "NapsterKit.h"
+
+  export *
+  module * { export * }
+}

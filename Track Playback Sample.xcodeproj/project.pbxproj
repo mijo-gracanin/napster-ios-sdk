@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80619881A02F5E000F34130 /* NapsterKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C80619861A02F5E000F34130 /* NapsterKit.bundle */; };
+		C80619891A02F5E000F34130 /* NapsterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80619871A02F5E000F34130 /* NapsterKit.framework */; };
+		C80619A21A03000E00F34130 /* NKSTrackPlaybackRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80619A11A03000E00F34130 /* NKSTrackPlaybackRootView.xib */; };
+		C81DD89519FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD89419FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.m */; };
+		C81DD89819FAC40C0011F1FA /* NKSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD89719FAC40C0011F1FA /* NKSAppDelegate.m */; };
+		C81DD89B19FAC4270011F1FA /* NKSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD89A19FAC4270011F1FA /* NKSAlertView.m */; };
+		C81DD89E19FAC42E0011F1FA /* NKSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD89D19FAC42E0011F1FA /* NKSActionSheet.m */; };
+		C81DD8A219FAC4710011F1FA /* NKSLoadingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD8A019FAC4710011F1FA /* NKSLoadingOverlay.m */; };
+		C81DD8A319FAC4710011F1FA /* NKSLoadingOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8A119FAC4710011F1FA /* NKSLoadingOverlay.xib */; };
+		C81DD8A719FAC5A60011F1FA /* NKSQueueTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD8A519FAC5A60011F1FA /* NKSQueueTableCell.m */; };
+		C81DD8A819FAC5A60011F1FA /* NKSQueueTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8A619FAC5A60011F1FA /* NKSQueueTableCell.xib */; };
+		C81DD8AB19FAC5C60011F1FA /* NSDictionary+NKSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD8AA19FAC5C60011F1FA /* NSDictionary+NKSExtensions.m */; };
+		C81DD8AE19FAC6870011F1FA /* UIColor+NKSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD8AD19FAC6870011F1FA /* UIColor+NKSExtensions.m */; };
+		C81DD8B119FAC6AC0011F1FA /* NKSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD8B019FAC6AC0011F1FA /* NKSRootViewController.m */; };
+		C81DD8B319FAC6D60011F1FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81DD8B219FAC6D60011F1FA /* Foundation.framework */; };
+		C81DD8B519FAC6DD0011F1FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81DD8B419FAC6DD0011F1FA /* CoreGraphics.framework */; };
+		C81DD8B719FAC6E60011F1FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81DD8B619FAC6E60011F1FA /* CoreData.framework */; };
+		C81DD8B919FAC6EE0011F1FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81DD8B819FAC6EE0011F1FA /* AVFoundation.framework */; };
+		C81DD8BB19FAC6F50011F1FA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81DD8BA19FAC6F50011F1FA /* AudioToolbox.framework */; };
+		C81DD8D919FAC72E0011F1FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8BE19FAC72E0011F1FA /* Default-568h@2x.png */; };
+		C81DD8DA19FAC72E0011F1FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8BF19FAC72E0011F1FA /* Default.png */; };
+		C81DD8DB19FAC72E0011F1FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C019FAC72E0011F1FA /* Default@2x.png */; };
+		C81DD8DC19FAC72E0011F1FA /* PlayerLevelMeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C119FAC72E0011F1FA /* PlayerLevelMeter.png */; };
+		C81DD8DD19FAC72E0011F1FA /* PlayerLevelMeter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C219FAC72E0011F1FA /* PlayerLevelMeter@2x.png */; };
+		C81DD8DE19FAC72E0011F1FA /* PlayerNext.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C319FAC72E0011F1FA /* PlayerNext.png */; };
+		C81DD8DF19FAC72E0011F1FA /* PlayerNext@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C419FAC72E0011F1FA /* PlayerNext@2x.png */; };
+		C81DD8E019FAC72E0011F1FA /* PlayerPause.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C519FAC72E0011F1FA /* PlayerPause.png */; };
+		C81DD8E119FAC72E0011F1FA /* PlayerPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C619FAC72E0011F1FA /* PlayerPause@2x.png */; };
+		C81DD8E219FAC72E0011F1FA /* PlayerPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C719FAC72E0011F1FA /* PlayerPlay.png */; };
+		C81DD8E319FAC72E0011F1FA /* PlayerPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C819FAC72E0011F1FA /* PlayerPlay@2x.png */; };
+		C81DD8E419FAC72E0011F1FA /* PlayerPrevious.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8C919FAC72E0011F1FA /* PlayerPrevious.png */; };
+		C81DD8E519FAC72E0011F1FA /* PlayerPrevious@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8CA19FAC72E0011F1FA /* PlayerPrevious@2x.png */; };
+		C81DD8E619FAC72E0011F1FA /* PlayerRepeat.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8CB19FAC72E0011F1FA /* PlayerRepeat.png */; };
+		C81DD8E719FAC72E0011F1FA /* PlayerRepeat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8CC19FAC72E0011F1FA /* PlayerRepeat@2x.png */; };
+		C81DD8E819FAC72E0011F1FA /* PlayerRepeatAllTracks.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8CD19FAC72E0011F1FA /* PlayerRepeatAllTracks.png */; };
+		C81DD8E919FAC72E0011F1FA /* PlayerRepeatAllTracks@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8CE19FAC72E0011F1FA /* PlayerRepeatAllTracks@2x.png */; };
+		C81DD8EA19FAC72E0011F1FA /* PlayerRepeatSingleTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8CF19FAC72E0011F1FA /* PlayerRepeatSingleTrack.png */; };
+		C81DD8EB19FAC72E0011F1FA /* PlayerRepeatSingleTrack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D019FAC72E0011F1FA /* PlayerRepeatSingleTrack@2x.png */; };
+		C81DD8EC19FAC72E0011F1FA /* PlayerShuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D119FAC72E0011F1FA /* PlayerShuffle.png */; };
+		C81DD8ED19FAC72E0011F1FA /* PlayerShuffle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D219FAC72E0011F1FA /* PlayerShuffle@2x.png */; };
+		C81DD8EE19FAC72E0011F1FA /* PlayerShuffleSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D319FAC72E0011F1FA /* PlayerShuffleSelected.png */; };
+		C81DD8EF19FAC72E0011F1FA /* PlayerShuffleSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D419FAC72E0011F1FA /* PlayerShuffleSelected@2x.png */; };
+		C81DD8F019FAC72E0011F1FA /* TrackPlaying.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D519FAC72E0011F1FA /* TrackPlaying.png */; };
+		C81DD8F119FAC72E0011F1FA /* TrackPlaying@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D619FAC72E0011F1FA /* TrackPlaying@2x.png */; };
+		C81DD8F219FAC72E0011F1FA /* TrackPlayingSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D719FAC72E0011F1FA /* TrackPlayingSelected.png */; };
+		C81DD8F319FAC72E0011F1FA /* TrackPlayingSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8D819FAC72E0011F1FA /* TrackPlayingSelected@2x.png */; };
+		C8C08F8519FAA43800D4650E /* NKPlaylistDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F6A19FAA43800D4650E /* NKPlaylistDetail.m */; };
+		C8C08F8619FAA43800D4650E /* NKPlaylistStub.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F6D19FAA43800D4650E /* NKPlaylistStub.m */; };
+		C8C08F8719FAA43800D4650E /* NKNapster+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F7019FAA43800D4650E /* NKNapster+Extensions.m */; };
+		C8C08F8919FAA43800D4650E /* NKTrackListPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F7619FAA43800D4650E /* NKTrackListPlayer.m */; };
+		C8C08F8A19FAA43800D4650E /* NKNaturalSequencing.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F7B19FAA43800D4650E /* NKNaturalSequencing.m */; };
+		C8C08F8B19FAA43800D4650E /* NKShuffledSequencing.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F7D19FAA43800D4650E /* NKShuffledSequencing.m */; };
+		C8C08F8C19FAA43800D4650E /* NKSequenceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F7F19FAA43800D4650E /* NKSequenceItem.m */; };
+		C8C08F8D19FAA43800D4650E /* NKSequencingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F8219FAA43800D4650E /* NKSequencingContext.m */; };
+		C8C08F8E19FAA43800D4650E /* NSArray+NKExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C08F8419FAA43800D4650E /* NSArray+NKExtensions.m */; };
+		C8C0900A19FAAC3A00D4650E /* NKSFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C0900519FAAC3A00D4650E /* NKSFavoritesViewController.m */; };
+		C8C0900B19FAAC3A00D4650E /* NKSFavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C0900619FAAC3A00D4650E /* NKSFavoritesViewController.xib */; };
+		C8C0900C19FAAC3A00D4650E /* NKSFavoriteTrackTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C0900819FAAC3A00D4650E /* NKSFavoriteTrackTableCell.m */; };
+		C8C0900D19FAAC3A00D4650E /* NKSFavoriteTrackTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C0900919FAAC3A00D4650E /* NKSFavoriteTrackTableCell.xib */; };
+		C8C0901119FAAC7C00D4650E /* NKSManualPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C0900F19FAAC7C00D4650E /* NKSManualPlayerViewController.m */; };
+		C8C0901219FAAC7C00D4650E /* NKSPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C0901019FAAC7C00D4650E /* NKSPlayerViewController.xib */; };
+		C8C0906919FAACC600D4650E /* NKSTrackPlaybackRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C0906819FAACC600D4650E /* NKSTrackPlaybackRootViewController.m */; };
+		C8DC768A19FA8815005122F4 /* TrackPlaybackSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DC768919FA8815005122F4 /* TrackPlaybackSample-Info.plist */; };
+		C8DC769119FA9592005122F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DC769019FA9592005122F4 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C80619861A02F5E000F34130 /* NapsterKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NapsterKit.bundle; sourceTree = "<group>"; };
+		C80619871A02F5E000F34130 /* NapsterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NapsterKit.framework; sourceTree = "<group>"; };
+		C80619A11A03000E00F34130 /* NKSTrackPlaybackRootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKSTrackPlaybackRootView.xib; path = "Sample for iOS/Classes/NKSTrackPlaybackRootView.xib"; sourceTree = SOURCE_ROOT; };
+		C81DD88719FAC3AD0011F1FA /* NKSCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSCommon.h; path = "Sample for iOS/Classes/NKSCommon.h"; sourceTree = SOURCE_ROOT; };
+		C81DD89319FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSNetworkActivityIndicatorController.h; path = "Sample for iOS/Classes/NKSNetworkActivityIndicatorController.h"; sourceTree = SOURCE_ROOT; };
+		C81DD89419FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSNetworkActivityIndicatorController.m; path = "Sample for iOS/Classes/NKSNetworkActivityIndicatorController.m"; sourceTree = SOURCE_ROOT; };
+		C81DD89619FAC40C0011F1FA /* NKSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSAppDelegate.h; path = "Sample for iOS/Classes/NKSAppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		C81DD89719FAC40C0011F1FA /* NKSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSAppDelegate.m; path = "Sample for iOS/Classes/NKSAppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		C81DD89919FAC4270011F1FA /* NKSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSAlertView.h; path = "Sample for iOS/Classes/NKSAlertView.h"; sourceTree = SOURCE_ROOT; };
+		C81DD89A19FAC4270011F1FA /* NKSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSAlertView.m; path = "Sample for iOS/Classes/NKSAlertView.m"; sourceTree = SOURCE_ROOT; };
+		C81DD89C19FAC42E0011F1FA /* NKSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSActionSheet.h; path = "Sample for iOS/Classes/NKSActionSheet.h"; sourceTree = SOURCE_ROOT; };
+		C81DD89D19FAC42E0011F1FA /* NKSActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSActionSheet.m; path = "Sample for iOS/Classes/NKSActionSheet.m"; sourceTree = SOURCE_ROOT; };
+		C81DD89F19FAC4710011F1FA /* NKSLoadingOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSLoadingOverlay.h; path = "Sample for iOS/Classes/NKSLoadingOverlay.h"; sourceTree = SOURCE_ROOT; };
+		C81DD8A019FAC4710011F1FA /* NKSLoadingOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSLoadingOverlay.m; path = "Sample for iOS/Classes/NKSLoadingOverlay.m"; sourceTree = SOURCE_ROOT; };
+		C81DD8A119FAC4710011F1FA /* NKSLoadingOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKSLoadingOverlay.xib; path = "Sample for iOS/Classes/NKSLoadingOverlay.xib"; sourceTree = SOURCE_ROOT; };
+		C81DD8A419FAC5A60011F1FA /* NKSQueueTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSQueueTableCell.h; path = "Sample for iOS/Classes/NKSQueueTableCell.h"; sourceTree = SOURCE_ROOT; };
+		C81DD8A519FAC5A60011F1FA /* NKSQueueTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSQueueTableCell.m; path = "Sample for iOS/Classes/NKSQueueTableCell.m"; sourceTree = SOURCE_ROOT; };
+		C81DD8A619FAC5A60011F1FA /* NKSQueueTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKSQueueTableCell.xib; path = "Sample for iOS/Classes/NKSQueueTableCell.xib"; sourceTree = SOURCE_ROOT; };
+		C81DD8A919FAC5C60011F1FA /* NSDictionary+NKSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+NKSExtensions.h"; path = "Sample for iOS/Classes/NSDictionary+NKSExtensions.h"; sourceTree = SOURCE_ROOT; };
+		C81DD8AA19FAC5C60011F1FA /* NSDictionary+NKSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+NKSExtensions.m"; path = "Sample for iOS/Classes/NSDictionary+NKSExtensions.m"; sourceTree = SOURCE_ROOT; };
+		C81DD8AC19FAC6870011F1FA /* UIColor+NKSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+NKSExtensions.h"; path = "Sample for iOS/Classes/UIColor+NKSExtensions.h"; sourceTree = SOURCE_ROOT; };
+		C81DD8AD19FAC6870011F1FA /* UIColor+NKSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+NKSExtensions.m"; path = "Sample for iOS/Classes/UIColor+NKSExtensions.m"; sourceTree = SOURCE_ROOT; };
+		C81DD8AF19FAC6AC0011F1FA /* NKSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSRootViewController.h; path = "Sample for iOS/Classes/NKSRootViewController.h"; sourceTree = SOURCE_ROOT; };
+		C81DD8B019FAC6AC0011F1FA /* NKSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSRootViewController.m; path = "Sample for iOS/Classes/NKSRootViewController.m"; sourceTree = SOURCE_ROOT; };
+		C81DD8B219FAC6D60011F1FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C81DD8B419FAC6DD0011F1FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C81DD8B619FAC6E60011F1FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C81DD8B819FAC6EE0011F1FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C81DD8BA19FAC6F50011F1FA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C81DD8BE19FAC72E0011F1FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C81DD8BF19FAC72E0011F1FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C81DD8C019FAC72E0011F1FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C81DD8C119FAC72E0011F1FA /* PlayerLevelMeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerLevelMeter.png; sourceTree = "<group>"; };
+		C81DD8C219FAC72E0011F1FA /* PlayerLevelMeter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerLevelMeter@2x.png"; sourceTree = "<group>"; };
+		C81DD8C319FAC72E0011F1FA /* PlayerNext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerNext.png; sourceTree = "<group>"; };
+		C81DD8C419FAC72E0011F1FA /* PlayerNext@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerNext@2x.png"; sourceTree = "<group>"; };
+		C81DD8C519FAC72E0011F1FA /* PlayerPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerPause.png; sourceTree = "<group>"; };
+		C81DD8C619FAC72E0011F1FA /* PlayerPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerPause@2x.png"; sourceTree = "<group>"; };
+		C81DD8C719FAC72E0011F1FA /* PlayerPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerPlay.png; sourceTree = "<group>"; };
+		C81DD8C819FAC72E0011F1FA /* PlayerPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerPlay@2x.png"; sourceTree = "<group>"; };
+		C81DD8C919FAC72E0011F1FA /* PlayerPrevious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerPrevious.png; sourceTree = "<group>"; };
+		C81DD8CA19FAC72E0011F1FA /* PlayerPrevious@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerPrevious@2x.png"; sourceTree = "<group>"; };
+		C81DD8CB19FAC72E0011F1FA /* PlayerRepeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRepeat.png; sourceTree = "<group>"; };
+		C81DD8CC19FAC72E0011F1FA /* PlayerRepeat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerRepeat@2x.png"; sourceTree = "<group>"; };
+		C81DD8CD19FAC72E0011F1FA /* PlayerRepeatAllTracks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRepeatAllTracks.png; sourceTree = "<group>"; };
+		C81DD8CE19FAC72E0011F1FA /* PlayerRepeatAllTracks@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerRepeatAllTracks@2x.png"; sourceTree = "<group>"; };
+		C81DD8CF19FAC72E0011F1FA /* PlayerRepeatSingleTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRepeatSingleTrack.png; sourceTree = "<group>"; };
+		C81DD8D019FAC72E0011F1FA /* PlayerRepeatSingleTrack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerRepeatSingleTrack@2x.png"; sourceTree = "<group>"; };
+		C81DD8D119FAC72E0011F1FA /* PlayerShuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerShuffle.png; sourceTree = "<group>"; };
+		C81DD8D219FAC72E0011F1FA /* PlayerShuffle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerShuffle@2x.png"; sourceTree = "<group>"; };
+		C81DD8D319FAC72E0011F1FA /* PlayerShuffleSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerShuffleSelected.png; sourceTree = "<group>"; };
+		C81DD8D419FAC72E0011F1FA /* PlayerShuffleSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerShuffleSelected@2x.png"; sourceTree = "<group>"; };
+		C81DD8D519FAC72E0011F1FA /* TrackPlaying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackPlaying.png; sourceTree = "<group>"; };
+		C81DD8D619FAC72E0011F1FA /* TrackPlaying@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrackPlaying@2x.png"; sourceTree = "<group>"; };
+		C81DD8D719FAC72E0011F1FA /* TrackPlayingSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackPlayingSelected.png; sourceTree = "<group>"; };
+		C81DD8D819FAC72E0011F1FA /* TrackPlayingSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrackPlayingSelected@2x.png"; sourceTree = "<group>"; };
+		C8C08F6819FAA43800D4650E /* NKAPI+Parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NKAPI+Parsing.h"; sourceTree = "<group>"; };
+		C8C08F6919FAA43800D4650E /* NKPlaylistDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlaylistDetail.h; sourceTree = "<group>"; };
+		C8C08F6A19FAA43800D4650E /* NKPlaylistDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPlaylistDetail.m; sourceTree = "<group>"; };
+		C8C08F6B19FAA43800D4650E /* NKPlaylistDetail_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlaylistDetail_Private.h; sourceTree = "<group>"; };
+		C8C08F6C19FAA43800D4650E /* NKPlaylistStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlaylistStub.h; sourceTree = "<group>"; };
+		C8C08F6D19FAA43800D4650E /* NKPlaylistStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPlaylistStub.m; sourceTree = "<group>"; };
+		C8C08F6E19FAA43800D4650E /* NKPlaylistStub_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlaylistStub_Private.h; sourceTree = "<group>"; };
+		C8C08F6F19FAA43800D4650E /* NKNapster+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NKNapster+Extensions.h"; sourceTree = "<group>"; };
+		C8C08F7019FAA43800D4650E /* NKNapster+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NKNapster+Extensions.m"; sourceTree = "<group>"; };
+		C8C08F7219FAA43800D4650E /* NKPlayableTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPlayableTrack.h; sourceTree = "<group>"; };
+		C8C08F7519FAA43800D4650E /* NKTrackListPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTrackListPlayer.h; sourceTree = "<group>"; };
+		C8C08F7619FAA43800D4650E /* NKTrackListPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTrackListPlayer.m; sourceTree = "<group>"; };
+		C8C08F7719FAA43800D4650E /* NKTrackListPlayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTrackListPlayer_Private.h; sourceTree = "<group>"; };
+		C8C08F7A19FAA43800D4650E /* NKNaturalSequencing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKNaturalSequencing.h; sourceTree = "<group>"; };
+		C8C08F7B19FAA43800D4650E /* NKNaturalSequencing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKNaturalSequencing.m; sourceTree = "<group>"; };
+		C8C08F7C19FAA43800D4650E /* NKShuffledSequencing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKShuffledSequencing.h; sourceTree = "<group>"; };
+		C8C08F7D19FAA43800D4650E /* NKShuffledSequencing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKShuffledSequencing.m; sourceTree = "<group>"; };
+		C8C08F7E19FAA43800D4650E /* NKSequenceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSequenceItem.h; sourceTree = "<group>"; };
+		C8C08F7F19FAA43800D4650E /* NKSequenceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSequenceItem.m; sourceTree = "<group>"; };
+		C8C08F8019FAA43800D4650E /* NKSequencingAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSequencingAlgorithm.h; sourceTree = "<group>"; };
+		C8C08F8119FAA43800D4650E /* NKSequencingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSequencingContext.h; sourceTree = "<group>"; };
+		C8C08F8219FAA43800D4650E /* NKSequencingContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSequencingContext.m; sourceTree = "<group>"; };
+		C8C08F8319FAA43800D4650E /* NSArray+NKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NKExtensions.h"; sourceTree = "<group>"; };
+		C8C08F8419FAA43800D4650E /* NSArray+NKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NKExtensions.m"; sourceTree = "<group>"; };
+		C8C08FFD19FAAB0500D4650E /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = "Sample for iOS/Prefix.pch"; sourceTree = "<group>"; };
+		C8C0900419FAAC3A00D4650E /* NKSFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSFavoritesViewController.h; path = "Sample for iOS/Classes/NKSFavoritesViewController.h"; sourceTree = SOURCE_ROOT; };
+		C8C0900519FAAC3A00D4650E /* NKSFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSFavoritesViewController.m; path = "Sample for iOS/Classes/NKSFavoritesViewController.m"; sourceTree = SOURCE_ROOT; };
+		C8C0900619FAAC3A00D4650E /* NKSFavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKSFavoritesViewController.xib; path = "Sample for iOS/Classes/NKSFavoritesViewController.xib"; sourceTree = SOURCE_ROOT; };
+		C8C0900719FAAC3A00D4650E /* NKSFavoriteTrackTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSFavoriteTrackTableCell.h; path = "Sample for iOS/Classes/NKSFavoriteTrackTableCell.h"; sourceTree = SOURCE_ROOT; };
+		C8C0900819FAAC3A00D4650E /* NKSFavoriteTrackTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSFavoriteTrackTableCell.m; path = "Sample for iOS/Classes/NKSFavoriteTrackTableCell.m"; sourceTree = SOURCE_ROOT; };
+		C8C0900919FAAC3A00D4650E /* NKSFavoriteTrackTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKSFavoriteTrackTableCell.xib; path = "Sample for iOS/Classes/NKSFavoriteTrackTableCell.xib"; sourceTree = SOURCE_ROOT; };
+		C8C0900F19FAAC7C00D4650E /* NKSManualPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSManualPlayerViewController.m; path = "Sample for iOS/Classes/NKSManualPlayerViewController.m"; sourceTree = SOURCE_ROOT; };
+		C8C0901019FAAC7C00D4650E /* NKSPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKSPlayerViewController.xib; path = "Sample for iOS/Classes/NKSPlayerViewController.xib"; sourceTree = SOURCE_ROOT; };
+		C8C0901319FAAC8200D4650E /* NKSManualPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSManualPlayerViewController.h; path = "Sample for iOS/Classes/NKSManualPlayerViewController.h"; sourceTree = SOURCE_ROOT; };
+		C8C0906719FAACC600D4650E /* NKSTrackPlaybackRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSTrackPlaybackRootViewController.h; path = "Sample for iOS/Classes/NKSTrackPlaybackRootViewController.h"; sourceTree = SOURCE_ROOT; };
+		C8C0906819FAACC600D4650E /* NKSTrackPlaybackRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSTrackPlaybackRootViewController.m; path = "Sample for iOS/Classes/NKSTrackPlaybackRootViewController.m"; sourceTree = SOURCE_ROOT; };
+		C8DC762E19FA8475005122F4 /* Track Playback Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Track Playback Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DC768919FA8815005122F4 /* TrackPlaybackSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TrackPlaybackSample-Info.plist"; path = "Sample for iOS/TrackPlaybackSample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C8DC769019FA9592005122F4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Sample for iOS/main.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8DC762B19FA8475005122F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81DD8BB19FAC6F50011F1FA /* AudioToolbox.framework in Frameworks */,
+				C81DD8B919FAC6EE0011F1FA /* AVFoundation.framework in Frameworks */,
+				C81DD8B719FAC6E60011F1FA /* CoreData.framework in Frameworks */,
+				C80619891A02F5E000F34130 /* NapsterKit.framework in Frameworks */,
+				C81DD8B519FAC6DD0011F1FA /* CoreGraphics.framework in Frameworks */,
+				C81DD8B319FAC6D60011F1FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80619851A02F5E000F34130 /* NapsterKit for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C80619861A02F5E000F34130 /* NapsterKit.bundle */,
+				C80619871A02F5E000F34130 /* NapsterKit.framework */,
+			);
+			path = "NapsterKit for iOS";
+			sourceTree = "<group>";
+		};
+		C81DD8BC19FAC6F90011F1FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C81DD8BA19FAC6F50011F1FA /* AudioToolbox.framework */,
+				C81DD8B819FAC6EE0011F1FA /* AVFoundation.framework */,
+				C81DD8B619FAC6E60011F1FA /* CoreData.framework */,
+				C81DD8B419FAC6DD0011F1FA /* CoreGraphics.framework */,
+				C81DD8B219FAC6D60011F1FA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C81DD8BD19FAC72E0011F1FA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C81DD8BE19FAC72E0011F1FA /* Default-568h@2x.png */,
+				C81DD8BF19FAC72E0011F1FA /* Default.png */,
+				C81DD8C019FAC72E0011F1FA /* Default@2x.png */,
+				C81DD8C119FAC72E0011F1FA /* PlayerLevelMeter.png */,
+				C81DD8C219FAC72E0011F1FA /* PlayerLevelMeter@2x.png */,
+				C81DD8C319FAC72E0011F1FA /* PlayerNext.png */,
+				C81DD8C419FAC72E0011F1FA /* PlayerNext@2x.png */,
+				C81DD8C519FAC72E0011F1FA /* PlayerPause.png */,
+				C81DD8C619FAC72E0011F1FA /* PlayerPause@2x.png */,
+				C81DD8C719FAC72E0011F1FA /* PlayerPlay.png */,
+				C81DD8C819FAC72E0011F1FA /* PlayerPlay@2x.png */,
+				C81DD8C919FAC72E0011F1FA /* PlayerPrevious.png */,
+				C81DD8CA19FAC72E0011F1FA /* PlayerPrevious@2x.png */,
+				C81DD8CB19FAC72E0011F1FA /* PlayerRepeat.png */,
+				C81DD8CC19FAC72E0011F1FA /* PlayerRepeat@2x.png */,
+				C81DD8CD19FAC72E0011F1FA /* PlayerRepeatAllTracks.png */,
+				C81DD8CE19FAC72E0011F1FA /* PlayerRepeatAllTracks@2x.png */,
+				C81DD8CF19FAC72E0011F1FA /* PlayerRepeatSingleTrack.png */,
+				C81DD8D019FAC72E0011F1FA /* PlayerRepeatSingleTrack@2x.png */,
+				C81DD8D119FAC72E0011F1FA /* PlayerShuffle.png */,
+				C81DD8D219FAC72E0011F1FA /* PlayerShuffle@2x.png */,
+				C81DD8D319FAC72E0011F1FA /* PlayerShuffleSelected.png */,
+				C81DD8D419FAC72E0011F1FA /* PlayerShuffleSelected@2x.png */,
+				C81DD8D519FAC72E0011F1FA /* TrackPlaying.png */,
+				C81DD8D619FAC72E0011F1FA /* TrackPlaying@2x.png */,
+				C81DD8D719FAC72E0011F1FA /* TrackPlayingSelected.png */,
+				C81DD8D819FAC72E0011F1FA /* TrackPlayingSelected@2x.png */,
+			);
+			name = Assets;
+			path = "Sample for iOS/Assets";
+			sourceTree = SOURCE_ROOT;
+		};
+		C8C08F6619FAA43800D4650E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C8C08F6719FAA43800D4650E /* API */,
+				C8C08F7119FAA43800D4650E /* ListPlayer */,
+				C8C08F8319FAA43800D4650E /* NSArray+NKExtensions.h */,
+				C8C08F8419FAA43800D4650E /* NSArray+NKExtensions.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C8C08F6719FAA43800D4650E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C8C08F6819FAA43800D4650E /* NKAPI+Parsing.h */,
+				C8C08F6919FAA43800D4650E /* NKPlaylistDetail.h */,
+				C8C08F6A19FAA43800D4650E /* NKPlaylistDetail.m */,
+				C8C08F6B19FAA43800D4650E /* NKPlaylistDetail_Private.h */,
+				C8C08F6C19FAA43800D4650E /* NKPlaylistStub.h */,
+				C8C08F6D19FAA43800D4650E /* NKPlaylistStub.m */,
+				C8C08F6E19FAA43800D4650E /* NKPlaylistStub_Private.h */,
+				C8C08F6F19FAA43800D4650E /* NKNapster+Extensions.h */,
+				C8C08F7019FAA43800D4650E /* NKNapster+Extensions.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C8C08F7119FAA43800D4650E /* ListPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C8C08F7219FAA43800D4650E /* NKPlayableTrack.h */,
+				C8C08F7519FAA43800D4650E /* NKTrackListPlayer.h */,
+				C8C08F7619FAA43800D4650E /* NKTrackListPlayer.m */,
+				C8C08F7719FAA43800D4650E /* NKTrackListPlayer_Private.h */,
+				C8C08F7819FAA43800D4650E /* Sequencing */,
+			);
+			path = ListPlayer;
+			sourceTree = "<group>";
+		};
+		C8C08F7819FAA43800D4650E /* Sequencing */ = {
+			isa = PBXGroup;
+			children = (
+				C8C08F7919FAA43800D4650E /* Algorithms */,
+				C8C08F7E19FAA43800D4650E /* NKSequenceItem.h */,
+				C8C08F7F19FAA43800D4650E /* NKSequenceItem.m */,
+				C8C08F8019FAA43800D4650E /* NKSequencingAlgorithm.h */,
+				C8C08F8119FAA43800D4650E /* NKSequencingContext.h */,
+				C8C08F8219FAA43800D4650E /* NKSequencingContext.m */,
+			);
+			path = Sequencing;
+			sourceTree = "<group>";
+		};
+		C8C08F7919FAA43800D4650E /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				C8C08F7A19FAA43800D4650E /* NKNaturalSequencing.h */,
+				C8C08F7B19FAA43800D4650E /* NKNaturalSequencing.m */,
+				C8C08F7C19FAA43800D4650E /* NKShuffledSequencing.h */,
+				C8C08F7D19FAA43800D4650E /* NKShuffledSequencing.m */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		C8C08FA219FAA85800D4650E /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				C81DD8A419FAC5A60011F1FA /* NKSQueueTableCell.h */,
+				C81DD8A519FAC5A60011F1FA /* NKSQueueTableCell.m */,
+				C81DD8A619FAC5A60011F1FA /* NKSQueueTableCell.xib */,
+			);
+			name = Queue;
+			path = "Station Playback Sample";
+			sourceTree = "<group>";
+		};
+		C8C0900319FAAC2000D4650E /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0900419FAAC3A00D4650E /* NKSFavoritesViewController.h */,
+				C8C0900519FAAC3A00D4650E /* NKSFavoritesViewController.m */,
+				C8C0900619FAAC3A00D4650E /* NKSFavoritesViewController.xib */,
+				C8C0900719FAAC3A00D4650E /* NKSFavoriteTrackTableCell.h */,
+				C8C0900819FAAC3A00D4650E /* NKSFavoriteTrackTableCell.m */,
+				C8C0900919FAAC3A00D4650E /* NKSFavoriteTrackTableCell.xib */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		C8C0900E19FAAC4200D4650E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0901319FAAC8200D4650E /* NKSManualPlayerViewController.h */,
+				C8C0900F19FAAC7C00D4650E /* NKSManualPlayerViewController.m */,
+				C8C0901019FAAC7C00D4650E /* NKSPlayerViewController.xib */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		C8C0902619FAAC9600D4650E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C81DD89F19FAC4710011F1FA /* NKSLoadingOverlay.h */,
+				C81DD8A019FAC4710011F1FA /* NKSLoadingOverlay.m */,
+				C81DD8A119FAC4710011F1FA /* NKSLoadingOverlay.xib */,
+				C81DD89919FAC4270011F1FA /* NKSAlertView.h */,
+				C81DD89A19FAC4270011F1FA /* NKSAlertView.m */,
+				C81DD89C19FAC42E0011F1FA /* NKSActionSheet.h */,
+				C81DD89D19FAC42E0011F1FA /* NKSActionSheet.m */,
+				C81DD8AC19FAC6870011F1FA /* UIColor+NKSExtensions.h */,
+				C81DD8AD19FAC6870011F1FA /* UIColor+NKSExtensions.m */,
+				C81DD8AF19FAC6AC0011F1FA /* NKSRootViewController.h */,
+				C81DD8B019FAC6AC0011F1FA /* NKSRootViewController.m */,
+				C81DD89619FAC40C0011F1FA /* NKSAppDelegate.h */,
+				C81DD89719FAC40C0011F1FA /* NKSAppDelegate.m */,
+				C81DD89319FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.h */,
+				C81DD89419FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.m */,
+				C81DD88719FAC3AD0011F1FA /* NKSCommon.h */,
+				C81DD8A919FAC5C60011F1FA /* NSDictionary+NKSExtensions.h */,
+				C81DD8AA19FAC5C60011F1FA /* NSDictionary+NKSExtensions.m */,
+			);
+			name = Shared;
+			path = "Station Playback Sample";
+			sourceTree = "<group>";
+		};
+		C8DC762519FA8475005122F4 = {
+			isa = PBXGroup;
+			children = (
+				C80619851A02F5E000F34130 /* NapsterKit for iOS */,
+				C8C08F6619FAA43800D4650E /* Common */,
+				C8DC763019FA8475005122F4 /* Track Playback Sample */,
+				C8DC762F19FA8475005122F4 /* Products */,
+				C81DD8BC19FAC6F90011F1FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8DC762F19FA8475005122F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8DC762E19FA8475005122F4 /* Track Playback Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8DC763019FA8475005122F4 /* Track Playback Sample */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0902619FAAC9600D4650E /* Shared */,
+				C81DD8BD19FAC72E0011F1FA /* Assets */,
+				C8C08FA219FAA85800D4650E /* Queue */,
+				C8C0900319FAAC2000D4650E /* Favorites */,
+				C8C0900E19FAAC4200D4650E /* Player */,
+				C8DC763119FA8475005122F4 /* Supporting Files */,
+				C8C0906719FAACC600D4650E /* NKSTrackPlaybackRootViewController.h */,
+				C8C0906819FAACC600D4650E /* NKSTrackPlaybackRootViewController.m */,
+				C80619A11A03000E00F34130 /* NKSTrackPlaybackRootView.xib */,
+			);
+			path = "Track Playback Sample";
+			sourceTree = "<group>";
+		};
+		C8DC763119FA8475005122F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8C08FFD19FAAB0500D4650E /* Prefix.pch */,
+				C8DC769019FA9592005122F4 /* main.m */,
+				C8DC768919FA8815005122F4 /* TrackPlaybackSample-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8DC762D19FA8475005122F4 /* Track Playback Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DC765119FA8475005122F4 /* Build configuration list for PBXNativeTarget "Track Playback Sample" */;
+			buildPhases = (
+				C8DC762A19FA8475005122F4 /* Sources */,
+				C8DC762B19FA8475005122F4 /* Frameworks */,
+				C8DC762C19FA8475005122F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Track Playback Sample";
+			productName = "Track Playback Sample";
+			productReference = C8DC762E19FA8475005122F4 /* Track Playback Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8DC762619FA8475005122F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Napster;
+				TargetAttributes = {
+					C8DC762D19FA8475005122F4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C8DC762919FA8475005122F4 /* Build configuration list for PBXProject "Track Playback Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8DC762519FA8475005122F4;
+			productRefGroup = C8DC762F19FA8475005122F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8DC762D19FA8475005122F4 /* Track Playback Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8DC762C19FA8475005122F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81DD8DC19FAC72E0011F1FA /* PlayerLevelMeter.png in Resources */,
+				C81DD8E019FAC72E0011F1FA /* PlayerPause.png in Resources */,
+				C81DD8EC19FAC72E0011F1FA /* PlayerShuffle.png in Resources */,
+				C81DD8E719FAC72E0011F1FA /* PlayerRepeat@2x.png in Resources */,
+				C8C0901219FAAC7C00D4650E /* NKSPlayerViewController.xib in Resources */,
+				C81DD8F019FAC72E0011F1FA /* TrackPlaying.png in Resources */,
+				C81DD8DA19FAC72E0011F1FA /* Default.png in Resources */,
+				C81DD8DB19FAC72E0011F1FA /* Default@2x.png in Resources */,
+				C81DD8E419FAC72E0011F1FA /* PlayerPrevious.png in Resources */,
+				C80619A21A03000E00F34130 /* NKSTrackPlaybackRootView.xib in Resources */,
+				C81DD8F219FAC72E0011F1FA /* TrackPlayingSelected.png in Resources */,
+				C81DD8EB19FAC72E0011F1FA /* PlayerRepeatSingleTrack@2x.png in Resources */,
+				C81DD8E819FAC72E0011F1FA /* PlayerRepeatAllTracks.png in Resources */,
+				C8C0900B19FAAC3A00D4650E /* NKSFavoritesViewController.xib in Resources */,
+				C81DD8E519FAC72E0011F1FA /* PlayerPrevious@2x.png in Resources */,
+				C80619881A02F5E000F34130 /* NapsterKit.bundle in Resources */,
+				C81DD8E319FAC72E0011F1FA /* PlayerPlay@2x.png in Resources */,
+				C81DD8DD19FAC72E0011F1FA /* PlayerLevelMeter@2x.png in Resources */,
+				C81DD8EA19FAC72E0011F1FA /* PlayerRepeatSingleTrack.png in Resources */,
+				C81DD8A319FAC4710011F1FA /* NKSLoadingOverlay.xib in Resources */,
+				C81DD8EE19FAC72E0011F1FA /* PlayerShuffleSelected.png in Resources */,
+				C81DD8DF19FAC72E0011F1FA /* PlayerNext@2x.png in Resources */,
+				C81DD8E119FAC72E0011F1FA /* PlayerPause@2x.png in Resources */,
+				C81DD8EF19FAC72E0011F1FA /* PlayerShuffleSelected@2x.png in Resources */,
+				C81DD8E919FAC72E0011F1FA /* PlayerRepeatAllTracks@2x.png in Resources */,
+				C81DD8A819FAC5A60011F1FA /* NKSQueueTableCell.xib in Resources */,
+				C81DD8DE19FAC72E0011F1FA /* PlayerNext.png in Resources */,
+				C81DD8F119FAC72E0011F1FA /* TrackPlaying@2x.png in Resources */,
+				C81DD8E619FAC72E0011F1FA /* PlayerRepeat.png in Resources */,
+				C81DD8ED19FAC72E0011F1FA /* PlayerShuffle@2x.png in Resources */,
+				C81DD8D919FAC72E0011F1FA /* Default-568h@2x.png in Resources */,
+				C8C0900D19FAAC3A00D4650E /* NKSFavoriteTrackTableCell.xib in Resources */,
+				C8DC768A19FA8815005122F4 /* TrackPlaybackSample-Info.plist in Resources */,
+				C81DD8F319FAC72E0011F1FA /* TrackPlayingSelected@2x.png in Resources */,
+				C81DD8E219FAC72E0011F1FA /* PlayerPlay.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8DC762A19FA8475005122F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C08F8519FAA43800D4650E /* NKPlaylistDetail.m in Sources */,
+				C8C08F8719FAA43800D4650E /* NKNapster+Extensions.m in Sources */,
+				C8C08F8B19FAA43800D4650E /* NKShuffledSequencing.m in Sources */,
+				C81DD89B19FAC4270011F1FA /* NKSAlertView.m in Sources */,
+				C8C0900C19FAAC3A00D4650E /* NKSFavoriteTrackTableCell.m in Sources */,
+				C8C08F8D19FAA43800D4650E /* NKSequencingContext.m in Sources */,
+				C81DD8AE19FAC6870011F1FA /* UIColor+NKSExtensions.m in Sources */,
+				C8C0901119FAAC7C00D4650E /* NKSManualPlayerViewController.m in Sources */,
+				C8C08F8919FAA43800D4650E /* NKTrackListPlayer.m in Sources */,
+				C8C08F8619FAA43800D4650E /* NKPlaylistStub.m in Sources */,
+				C8C08F8E19FAA43800D4650E /* NSArray+NKExtensions.m in Sources */,
+				C81DD8A219FAC4710011F1FA /* NKSLoadingOverlay.m in Sources */,
+				C8C08F8A19FAA43800D4650E /* NKNaturalSequencing.m in Sources */,
+				C8DC769119FA9592005122F4 /* main.m in Sources */,
+				C8C0906919FAACC600D4650E /* NKSTrackPlaybackRootViewController.m in Sources */,
+				C8C08F8C19FAA43800D4650E /* NKSequenceItem.m in Sources */,
+				C81DD8B119FAC6AC0011F1FA /* NKSRootViewController.m in Sources */,
+				C81DD89819FAC40C0011F1FA /* NKSAppDelegate.m in Sources */,
+				C8C0900A19FAAC3A00D4650E /* NKSFavoritesViewController.m in Sources */,
+				C81DD89519FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.m in Sources */,
+				C81DD89E19FAC42E0011F1FA /* NKSActionSheet.m in Sources */,
+				C81DD8AB19FAC5C60011F1FA /* NSDictionary+NKSExtensions.m in Sources */,
+				C81DD8A719FAC5A60011F1FA /* NKSQueueTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8DC764F19FA8475005122F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVENKSION = YES;
+				CLANG_WARN_CONSTANT_CONVENKSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVENKSION = YES;
+				CLANG_WARN_INT_CONVENKSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/NapsterKit for iOS\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample for iOS/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVENKSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8DC765019FA8475005122F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVENKSION = YES;
+				CLANG_WARN_CONSTANT_CONVENKSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVENKSION = YES;
+				CLANG_WARN_INT_CONVENKSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/NapsterKit for iOS\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample for iOS/Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVENKSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8DC765219FA8475005122F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NapsterKit",
+					for,
+					iOS,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TRACK_PLAYBACK_SAMPLE=1",
+				);
+				INFOPLIST_FILE = "Sample for iOS/TrackPlaybackSample-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8DC765319FA8475005122F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NapsterKit",
+					for,
+					iOS,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "TRACK_PLAYBACK_SAMPLE=1";
+				INFOPLIST_FILE = "Sample for iOS/TrackPlaybackSample-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8DC762919FA8475005122F4 /* Build configuration list for PBXProject "Track Playback Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DC764F19FA8475005122F4 /* Debug */,
+				C8DC765019FA8475005122F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DC765119FA8475005122F4 /* Build configuration list for PBXNativeTarget "Track Playback Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DC765219FA8475005122F4 /* Debug */,
+				C8DC765319FA8475005122F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8DC762619FA8475005122F4 /* Project object */;
+}

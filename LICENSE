@@ -1,0 +1,182 @@
+Napster Developer Platform Terms of Use
+
+1. Introduction
+Welcome and thank you very much for your interest in Napster International Inc.'s ("Napster") Developer Platform (the "Platform"). The Platform encompasses the Napster API, the Napster SDKs, the Napster Chrome extension, and the Napster Developer Portal, and all future developer products Napster may build. Napster built the Platform to allow developers to integrate their new or existing products with NapsterÕs subscription streaming music service (the "Service"), and the musical works, sound recordings, and associated metadata contained therein, as licensed to the Service from third-party providers (the "Music Content") (such providers, "Music Content Providers").
+
+BY CLICKING "I AGREE" OR DOWNLOADING, IMPLEMENTING, OR OTHERWISE USING THE NAPSTER PLATFORM, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDENKSTAND AND AGREE TO BE BOUND BY THESE NAPSTER DEVELOPER PLATFORM TERMS OF USE (THE "PLATFORM TERMS").
+
+Napster reserves the right to amend these Platform Terms from time to time. You should monitor the Napster Developer Portal to ensure that you are aware of any changes to the Platform Terms. In the event that you do not agree with any changes to the Platform Terms, you must immediately cease any and all use of the Platform and Service integration.
+
+These Platform Terms are incorporated into and are subject to the Napster Terms of Use, Napster Privacy Policy, and Napster End User License Agreement (the "Napster Policies"). Your use of the Napster Platform and the Service is subject at all times to the Napster. By using the Napster Platform, you agree that you have read, understood, and agree to be bound by the Napster Policies.
+
+2. Eligibility
+YOU HEREBY REPRESENT AND WARRANT THAT YOU HAVE ALL AUTHORITY NECESSARY TO BIND YOUNKSELF TO THESE PLATFORM TERMS. IF, AT ANY TIME, YOU DO NOT AGREE TO THESE PLATFORM TERMS, THEN YOU ARE NO LONGER GRANTED A LICENSE TO USE NAPSTER'S PLATFORM, AND MUST DISCONTINUE ALL USES OF THE NAPSTER PLATFORM.
+
+IF YOU ARE USING THE NAPSTER PLATFORM ON BEHALF OF A COMPANY, ENTITY, OR ORGANIZATION (COLLECTIVELY, A "SUBSCRIBING ORGANIZATION"), THEN YOU REPRESENT AND WARRANT THAT YOU: (A) ARE AN AUTHORIZED REPRESENTATIVE OF THAT SUBSCRIBING ORGANIZATION WITH THE AUTHORITY TO BIND SUCH ORGANIZATION TO THESE PLATFORM TERMS; (B) HAVE READ AND UNDENKSTAND THESE PLATFORM TERMS; AND (C) AGREE TO THESE PLATFORM TERMS ON BEHALF OF SUCH SUBSCRIBING ORGANIZATION.
+
+If you are a developer or a developer working on behalf of a Subscribing Organization that (a) itself or any of its affiliates operates or otherwise is integrated with (i) an application, product or service that is intended to permit or permits unauthorized access to or otherwise infringes or violates the intellectual property rights of others (an "Unauthorized Purpose"), or (ii) is used for the Unauthorized Purpose by a material number of persons and/or in respect of a material volume of content, or (iii) is predominantly used for the Unauthorized Purpose, or (iv) is advertised as being capable of use for the Unauthorized Purpose; or (b) is, either directly or indirectly, including through affiliates, a direct competitor of a Music Content Provider, then you are not eligible for the Napster Platform.
+
+3. Conditions of Use; Account Creation
+To access and use the Napster Platform, you must create an account (an "Account") by registering at the Napster Developer Portal and providing Napster with current, complete, and accurate information about you, your Subscribing Organization (if any) and Your Application (as defined below).
+
+You are solely responsible for maintaining the confidentiality of any credentials, including unique API keys, provided by Napster to you ("Credentials"). You may only access your Account with the Credentials provided to you by Napster and you will be fully responsible and liable for all activities that occur through the use of your Credentials. You agree to notify Napster immediately at api-team@napster.com of any unauthorized use of your Credentials, or any other breach of security with respect to your account on the Service. Napster will not be liable for any losses, damages or claims arising from unauthorized use of your Credentials.
+
+All information collected by Napster during your registration for the Napster Platform will be used in accordance with the Napster Privacy Policy. Any information collected by you about any Napster User (as defined below) must be handled in a manner consistent with the Napster Privacy Policy.
+
+4. License Grant, Platform Use and Monitoring
+The Napster Platform allows you to create certain compatibility between an application, service or product created by you ("Your Application") and the Service. Use of the Napster Platform with Your Application must be limited to registered paying and free trial subscribers of the Service (each, a "Napster User") and may only be used in conjunction with the Service.
+
+Subject to the terms and conditions of these Platform Terms and during the term of these Platform Terms, you are hereby granted a limited, nonexclusive, non-sublicensable, nonassignable (except as authorized herein), freely revocable license to access and use the Napster Platform (and any supporting documentation provided by Napster) solely for the purpose of developing Your Application to display and transmit the Service and Music Content to Napster Users (e.g., for enabling subscription-based streaming via the Service). All rights not expressly granted to you herein are reserved by Napster and Music Content Providers, as applicable.
+
+Napster may at any time change the specifications of or restrict or limit access to the Napster Platform in Napster's sole discretion, without any liability to you. Your right to access and use the Napster Platform is a privilege, which may be revoked by Napster at any time, without or without notice. You acknowledge and agree that Napster may use any technological means to enforce these Platform Terms. Notwithstanding anything to the contrary, you hereby grant Napster the right to crawl, test or otherwise monitor Your Applications for the purpose of verifying your compliance with these Platform Terms, and that you will not block, attempt to block or otherwise interfere with such crawling or monitoring.
+
+5. Limitations
+Through your use of the Napster Platform, you agree that you will not, directly or indirectly, violate any applicable laws, the rights of others, or the operational and security mechanisms of the Service. Further, you agree that:
+
+You Will:
+
+at all times comply with these Platform Terms as well as the Napster Policies and all other terms governing your use of the Service or Napster Platform;
+validate the credentials of each Napster User accessing the Service through Your Application;
+implement and observe standards of privacy and confidentiality for the collection, use and sharing of any data related to any user of the Service that are at least as stringent and user-favorable as the standards set forth in the Napster Privacy Policy;
+adopt and publish a privacy policy that is easily accessible to users, complies with applicable laws, and that clearly and concisely discloses how you collect, use, store, disclose, and destroy data collected from users. You will only collect user personal information that is necessary for the functionality of Your Application and only as expressly described in your privacy policy;
+notify Napster immediately if you receive any complaint (including a notification of claimed infringement of copyright or any other intellectual property right, regardless of whether such notification is compliant with Section 512 of the United States Copyright Act, 17 U.S.C. § 512, or otherwise) based on the Service or any Music Content provided by Napster;
+provide any information and/or other materials related to Your Applications requested by Napster from time to time to verify your compliance with these Platform Terms;
+in Your Application, display and promote the ability to subscribe to the Service, including, without limitation, by linking to the Service, incorporating Napster branding pursuant to the Napster trademark guidelines, and making available and displaying promotions of Napster's subscription tiers.
+
+You Will Not:
+
+modify, adapt, translate, decompile, disassemble, reverse engineer, reverse assemble, analyze or otherwise examine, prepare derivative works of, modify, or attempt to derive source code from the Napster Platform, or attempt to do any of the foregoing;
+obtain access to the Service without all necessary authorization;
+include any viruses, worms, Trojan horses or any other harmful code that could, in Napster's sole discretion, affect the Napster Platform or the Service;
+copy, distribute, reproduce, sell, resell, lend, lease, rent, use, allow access to, or otherwise commercialize or monetize the Service, the Napster Platform or data obtained through the Napster Platform or Music Content except as explicitly permitted under these Platform Terms;
+aggregate the Music Content (including Metadata, as defined below) to create databases, or any other compilations of Music Content, or use the Music Content to populate any other sites, applications or services;
+except as otherwise permitted in Section 12 of these Platform Terms monetize or otherwise receive and/or be entitled to receive any consideration of any kind in connection with Your Application, including but not limited to any third party payment or exchange for value (e.g., advertising);
+interfere or attempt to interfere in any manner with the proper functioning of the Napster Platform or the Service;
+circumvent any territorial filtering imposed by Napster;
+use the Napster Platform or any Music Content for any illegal or unauthorized purpose, including the unlawful distribution of Music Content or the infringement, violation or misappropriation any third party's intellectual property rights or other proprietary rights;
+collect, cache or store Napster passwords of Napster Users using Your Application or any other data obtained from the Napster Platform, except for local caching of Metadata (as defined below) for up to 24 hours;
+access or use or attempt to access or use any data or content from any Napster User that you do not have proper authorization to access or use;
+send messages to or communicate with a Napster User unless such User expressly consents to such communication;
+request, collect, solicit or otherwise obtain access to usernames, passwords or other authentication credentials from any Napster Users, or to proxy authentication credentials for any Napster Users for the purposes of automating logins to the Service without adding material additional features or functionality;
+remove, obscure, or alter any notice of patent, copyright, trademark or other proprietary right appearing in the Napster Platform, whether of Napster or any other third party, including, but not limited to, Music Content Providers;
+access any undocumented feature of the Napster Platform, or use any documented feature of the Napster Platform other than for its intended purpose;
+impose or purport to impose any obligation on any person, or grant or purport to grant any right, power or authority to yourself or any other person, that would be inconsistent with these Platform Terms, and you agree that any such obligation, right, power or authority purportedly imposed or granted shall be null and void;
+attempt to conceal your identity or Your Application's identity when requesting authorization to use the Napster Platform or use any Credentials other than your own or use any Credentials after your authorization has been revoked by Napster;
+use the Napster Platform in a manner that adversely impacts the stability of Napster's servers or the Service or adversely impacts the behavior of other applications using the Napster Platform, in Napster's sole determination;
+use the Napster Platform for the purpose of collecting personally identifiable information of any Napster User without such Napster User's permission;
+unless you are a major consumer electronics manufacturer, author software or firmware that directly accesses the Service on hardware without Music Content Providers' express written consent;
+use the Napster Platform to develop an application to automate or assist with user synchronization with external media (such as slide shows, video, or games) or integrate with any services making digital audio transmissions of sound recordings;
+use the Napster Platform in such a way that knowingly harms, misuses, or brings into disrepute the Service, the Napster Platform or Napster's brands, trademarks, logos or names;
+edit, reformat or otherwise interfere with (or allow your users to edit, reformat or otherwise interfere) with any Music Content;
+Reproduce, or allow your users to reproduce, any Music Content on any form of storage media, whether now known or hereafter created, unless expressly permitted by the Napster Platform;
+distribute any application online through one or more website(s) that is/are in any way similar to the Service or use the Napster trademarks, or words confusingly similar or describing Napster's products or services, as the registered URL for your website(s), except as expressly approved in writing by Napster; and
+use an unreasonable amount of bandwidth, storage or processing power as determined by Napster in its sole discretion, or use the Napster Platform in a manner that exceeds the quota limitations set forth herein;
+
+Your Application Will Not:
+
+do any of the following: (i) facilitate and/or promote illegal activity, including, without limitation, any activity that is fraudulent, such as engaging in phishing or otherwise obtaining financial or other personal information in a misleading manner or for misleading purposes, (ii) depict sexually explicit images, (iii) promote violence and/or discrimination, (iv) incorporate any materials, or encourage or endorse users to post or upload any materials, that infringe or assist others to infringe on any intellectual property right, (v) engage in the endorsement of political positions, political candidates or religious causes or use the Napster Platform to display or imply any such endorsement by music artists or Music Content Providers, (vi) engage in the sale or advertisement of pornography, tobacco, firearms or personal hygiene products (but excluding soaps, shampoos, perfumes, lotions and toothpastes), (vii) engage in spamming or other advertising or marketing activities that violate any applicable laws, regulations or generally-accepted advertising industry guidelines, (viii) engage in any activity that is malicious or harmful to any person or entity, including an activity that may be libelous or defamatory, or discriminatory based on race, color, sex, religion, nationality, ethnic or national origin, marital status, disability, sexual orientation, age or any other protected class pursuant to U.S. federal or any state laws, (ix) display or imply any kind of product endorsement by music artists or Music Content Providers without their express consent, and (x) engage in or use the Napster Platform for prohibited business activities, including, but not limited to, resale of the Service and the use of the Service in association with contests or promotions.
+facilitate the access, storage, distribution or other exploitation of Music Content, which includes making the Music Content available for download to end users and bundling or reselling streams via the Service;
+except as otherwise permitted in Section 12 of these Platform Terms charge users for access to Your Application or otherwise be monetized (e.g., through the sale of advertising or sponsorships);
+be made available mainly for promotion, communication or marketing purposes by a company or on behalf of a company, such as a limited in time 'one-off' free of charge application for the promotion of a mark;
+as determined by Napster in its sole discretion, reasonably be capable of misleading a user into believing that: (i) he or she is interacting directly with the Service when interacting with Your Application, or (ii) Your Application was created by or is endorsed by Napster;
+integrate with (e.g., for purposes of providing content to) any pre-programmed Internet webcasting service or any other third party services without Napster's express prior written consent.
+be white-labeled;
+combine or synchronize Music Content (including clips) with visual elements (e.g., games);
+include user generated content unless a filtering mechanism is implemented; and
+focus on a specific musical artist, set of musical artists, or record label without express consent from such party(ies).
+6. Ownership
+As between you and Napster, you acknowledge that Napster owns all right, title, and interest in the Napster Platform and the Service. All rights not expressly granted hereunder are reserved by Napster or the Music Content Providers, as applicable. Except for the limited licenses expressly granted herein, these Platform Terms grant you no right, title, or interest in any intellectual property owned or licensed by Napster and the Music Content Providers, including (but not limited to) the Napster Platform, the Service, the Music Content and Napster trademarks. Any rights granted hereunder are granted solely to you and not, by implication or otherwise, to any parent, subsidiary, or affiliate of you.
+
+As between you and Napster, you own Your Applications (subject to the below and Napster's underlying rights in the Service and the Napster Platform). You are solely responsible for all costs incurred by you in the creation of Your Application.
+
+You acknowledge and agree that Napster and other Napster Platform Developers may independently develop other applications through their use of the Napster Platform or otherwise which are identical or similar to Your Application in function, code or other characteristics. You agree that You will have no ownership or intellectual property rights in such applications. You further acknowledge and agree that any application developed by Napster and using the Napster Platform which may be identical or similar to Your Application in function, code or other characteristics will not be deemed to violate in any manner any of your rights in Your Application, and that any such characteristics are coincidental in nature. In this regard, you expressly agree not to bring claims against Napster for copyright infringement or otherwise based on the sole fact that an application developed by Napster and using the Napster Platform is identical or similar to Your Application utilizing the Napster Platform in function, code or other characteristics. By submitting or otherwise making available an application that uses the Napster Platform, you acknowledge and agree that Your Application and/or its functionality is not exclusive to Napster, the Napster Service and/or to third parties, and may be replicated, imitated or otherwise duplicative with other applications or functionality developed by Napster or third parties.
+
+7. Usage and Quotas
+Napster may limit the number of network calls that Your Applications may make with the Napster Platform, and/or the maximum file size, and/or the maximum Music Content that may be accessed, or anything else about the Napster Platform and the Music Content in Napster's sole discretion. Napster may change such usage limits at any time and without notice. Without limiting any of its rights under the Napster Policies, and these Platform Terms, Napster may use technical means to prevent over-use and/or stop use of the Napster Platform if Your Application exceeds usage limitations.
+
+8. Metadata
+Music Content includes without limitation metadata, clips, artist name, album name, track name, parental advisory status, album artwork, artist images, copyright, and track number ("Metadata"). Metadata may only be used in conjunction with the Napster Platform.
+
+9. Attribution
+You must use one of the following references to Napster, the Napster Platform and the Service in connection with Your Application within close proximity to the 'play' button:
+
+"Powered By Napster®"
+"music By Napster®"
+"Napster®"
+You shall place the following notice prominently in the "Help" or "About" section (or similar) of Your Application:
+
+"This product uses the Napster Platform but is not endorsed, certified, or otherwise approved by Napster®."
+
+Apart from providing attribution as expressly described in this Section 9 and complying with the obligations set forth in Section 5(gg)(i), you shall not use the name "Napster" or of any Music Content Provider in any way, including, but not limited to, in the hostname of your application (i.e. Napster.domain.com). Except as provided pursuant to Section 5(g), you will not use the logo or marks of Napster or any Music Content Provider without prior express written permission from Napster or the Music Content Provider, as applicable, and then, only under the terms and conditions under which Napster or the Music Content Provider provided such prior express written permission. If you do receive permission to use the name, marks or logos of Napster or a Music Content Provider, you must not use them in any manner that creates a false suggestion, either directly or indirectly, that Your Application is sponsored by Napster or such Music Content Provider or an "official" Napster or Music Content Provider application. In addition, you must not use the name of Napster or any Music Content Provider in any way that takes unfair advantage of Napster's or any Music Content Provider's goodwill or is likely to cause consumer confusion.
+
+10. Termination
+Your license to the Napster Platform under these Platform Terms continues until terminated by yourself or Napster. You may terminate the license by discontinuing use of the Napster Platform at any time. Napster may terminate the license to the Napster Platform without liability at any time for any reason, with or without notice. Additionally, your rights to use the Napster Platform will terminate immediately if you violate any of the terms and conditions herein. Upon expiration or termination of the license granted herein, you will discontinue any and all use of the Napster Platform.
+
+11. Support and Modifications
+
+Napster may elect to provide you with support or modifications for the Napster Platform (collectively, "Support"), in its sole discretion, and may terminate such Support at any time without notice to you. Napster may change, suspend, or discontinue any aspect of the Napster Platform at any time, including the availability of any Napster Platform. Napster may also impose limits on certain features and services or restrict your access to parts or all of the Napster Platform or the Service without notice or liability. Napster shall have no liability to you for any changes in or discontinuation of the Napster Platform, the Service, or any Support.
+
+12. Commercial Use/Monetization Limitations
+You agree that You will not charge users for access to Your Application, Napster's Service or the Music Content within it without Napster's express written consent. You further agree that Your Application will not contain any advertisements, promotions, sponsorships or similar communications (e.g., no pre-roll, in-roll or post-roll advertisements). Notwithstanding the foregoing, Your Application may include advertisements provided that Your Application is not music-themed, has a compelling offering without music and does not charge users any fee (whether recurring or otherwise) for access to Your Application. If you have any questions concerning these restrictions, please contact Napster at api-team@napster.com.
+
+13. License to Napster
+You hereby grant Napster and Music Content Providers a royalty free license to reproduce and publicly display your company name, Your Application name and/or logo for the purpose of promoting Your Application and the Napster Platform program on any website owned or controlled by or on behalf of Napster or a Music Content Provider, within the Service, Napster's/Music Content Provider's social media channels, Napster's/Music Content Provider's internal corporate documents and presentations, and other related marketing materials and marketing collateral, whether online or offline, and through any medium and using any technology, whether now known or hereafter created, selected by Napster or any Music Content Provider in its sole discretion.
+
+14. Fees; Taxes
+Napster reserves the right to charge a fee for using the Napster Platform in its sole discretion. You do not have an obligation to continue using the Napster Platform or the Service should Napster exercise its right to charge a fee. All fees are exclusive of applicable taxes (e.g., sales, use, or value-added tax), unless otherwise stated, and you are solely responsible for the payment of any such taxes that may be imposed on your use of Napster Platform. Napster will provide you with notice prior to the imposition of any fees and you will have the opportunity to terminate your use of the Napster Platform prior to being subject to the payment of any fees.
+
+15. Representations and Warranties
+You hereby represent and warrant that:
+
+You will at all times comply with these Platform Terms, the Napster Terms of Use, the Napster Privacy Policy, and all other terms governing your use of the Napster Platform;
+You have the right to distribute, or otherwise make available, Your Application to your end users, and the operation of Your Application will at all times comply with Your Application's terms of service and privacy policy and does not and will not infringe the rights of any third party;
+Your Application will comply with all applicable local, state, national and international laws and regulations, including, without limitation, copyright and other laws protecting proprietary rights, and all applicable export control laws and regulations and country-specific economic sanctions implemented by the United States Office of Foreign Assets Control;
+If Your Application involves payment or account information, you will comply with all rules and regulations of any applicable payment network or association, including, but not limited to, any widely-adopted industry standards for credit card or other payment information and protection of personally identifiable information;
+You will provide any information and/or other materials related to Your Applications requested by Napster from time to time to verify your compliance with these Platform Terms; and
+You have all authority necessary to bind yourself to these Platform Terms, or if you are using the Napster Platform on behalf of a Subscribing Organization, you are an authorized representative of that Subscribing Organization with the authority to bind such entity to these Platform Terms and agree to be bound by these Platform Terms on behalf of such Subscribing Organization.
+16. Indemnification
+In addition to the indemnification provisions in the Napster Terms of Use, you hereby agree to indemnify, defend, and hold harmless Napster, its customers and users, Music Content Providers, all third-party advertisers, technology providers, and service providers, and each of their respective employees, directors and representatives, from any liability, loss or claim arising out of or relating to: (a) these Platform Terms; (b) your use of or interaction with the Napster Platform; (c) Your Application; (d) your violation of any law, treaty, regulation or other governmental order; or (e) your violation of the intellectual, proprietary or other rights of any third parties. Napster reserves the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify Napster, and you agree to cooperate with Napster's defense of such claims. Napster will use reasonable efforts to notify you of any such claim, action, or proceeding upon becoming aware of it.
+
+17. Disclaimer; Limitation of Liability
+The following terms are in addition to the disclaimer and limitation of liability in the Napster Terms of Use.
+
+Napster does not warrant that the Napster Platform, the Service, the Metadata, any data, Music Content or any other information offered on or through the Service or Napster Platform will be uninterrupted, or free of errors, viruses or other harmful components and does not warrant that any of the foregoing shall be corrected. Napster is not responsible for the conduct of any Napster User.
+
+THE SERVICE AND NAPSTER PLATFORM ARE PROVIDED ON AN "AS IS," "AS AVAILABLE," "WITH ALL FAULTS" BASIS AND WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMISSIBLE PUNKSUANT TO APPLICABLE LAW, NAPSTER, AND ITS AFFILIATES, PARTNENKS, AND SUPPLIENKS DISCLAIM ALL WARRANTIES, STATUTORY, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM NAPSTER, OR ANYONE ACTING ON BEHALF OF NAPSTER, OR THROUGH THE SERVICE WILL CREATE ANY WARRANTY NOT EXPRESSLY STATED HEREIN. NAPSTER DOES NOT WARRANT THAT THE SERVICE OR NAPSTER PLATFORM WILL BE UNINTERRUPTED, OR FREE OF ERRONKS, VIRUSES OR OTHER HARMFUL COMPONENTS AND DOES NOT WARRANT THAT ANY OF THE FOREGOING WILL BE CORRECTED. YOU UNDENKSTAND AND AGREE THAT YOU ACCESS, DOWNLOAD OR USE THE SERVICE AND NAPSTER PLATFORM AT YOUR DISCRETION AND RISK AND THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR PROPERTY (INCLUDING ANY COMPUTER SYSTEMS USED IN CONJUNCTION WITH THE SERVICE AND THE NAPSTER PLATFORM) OR LOSS OF DATA THAT RESULTS FROM ACCESSING, DOWNLOADING OR USING THE SERVICE AND NAPSTER PLATFORM.
+
+UNDER NO CIRCUMSTANCES WILL NAPSTER BE LIABLE TO YOU FOR ANY PUNITIVE, INCIDENTAL, INDIRECT, SPECIAL, RELIANCE OR CONSEQUENTIAL DAMAGES, INCLUDING LOST BUSINESS, REVENUE, OR ANTICIPATED PROFITS, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHETHER OR NOT NAPSTER WAS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+CERTAIN JURISDICTIONS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF YOU RESIDE IN SUCH A JURISDICTION, SOME OR ALL OF THE ABOVE DISCLAIMENKS, EXCLUSIONS, OR LIMITATIONS MAY NOT APPLY TO YOU AND YOU MAY HAVE ADDITIONAL RIGHTS. THE LIMITATIONS OR EXCLUSIONS OF WARRANTIES, REMEDIES OR LIABILITY CONTAINED IN THESE PLATFORM TERMS APPLY TO YOU TO THE FULLEST EXTENT SUCH LIMITATIONS OR EXCLUSIONS ARE PERMITTED UNDER THE LAWS OF THE JURISDICTION WHERE YOU ARE LOCATED.
+
+YOU EXPRESSLY ACKNOWLEGE THAT AS USED IN THIS SECTION 17, THE TERM NAPSTER INCLUDES NAPSTER'S OFFICENKS, DIRECTONKS, EMPLOYEES, SHAREHOLDENKS, AGENTS, LICENSONKS (INCLUDING, WITHOUT LIMITATION, MUSIC CONTENT PROVIDENKS), AND SUBCONTRACTONKS.
+
+You acknowledge that the limitations and exclusions contained in this Section and elsewhere in these Platform Terms are a condition precedent to Napster granting you a license to the Napster Platform. You further acknowledge and agree that Napster would not be able to provide you with access to the Napster Platform without the limitation of liability set forth in these Platform Terms. Without limiting the generality of the foregoing, you and Napster acknowledge and agree that (a) the provisions hereof that limit liability, disclaim warranties, or exclude consequential damages or other damages or remedies will be severable and independent of any other provisions and will be enforced as such, regardless of any breach or other occurrence, and (b) all limitations of liability, disclaimers of warranties, and exclusions of consequential damages or other damages or remedies will remain fully valid, effective, and enforceable in accordance with their respective terms, even under circumstances that cause any exclusive remedy under this Agreement to fail of its essential purpose.
+
+18. Waiver
+The failure of Napster to exercise or enforce any right or provision of these Platform Terms will not constitute a waiver of such right or provision. Any waiver of any provision of these Platform Terms will be effective only if in writing and signed by Napster.
+
+19. Severability
+If any provision of these Platform Terms is held to be unlawful, void, or for any reason unenforceable, then that provision will be limited or eliminated from these Platform Terms to the minimum extent necessary and will not affect the validity and enforceability of any remaining provisions.
+
+20. Assignment
+You may not transfer or assign these Platform Terms or any of the rights or licenses granted under these Platform Terms, except in the case of a merger or sale of all or substantially all of your assets if you are a corporate or other similar entity. Any attempted transfer in violation of the foregoing is void. Napster may freely assign these Platform Terms at any time with or without notice.
+
+21. Dispute Resolution; Governing Law
+Any dispute arising under these Platform Terms shall be resolved pursuant to the Dispute Resolution and Arbitration Agreement in Section 15 of the Napster Terms of Use. These Platform Terms and any arbitration arising from disputes under these Platform Terms shall be subject to the Governing Law provision of Section 16 of the Napster Terms of Use.
+
+22. Relationship of the Parties
+The parties are independent contractors with respect to each other. These Platform Terms do not constitute and may not be construed as constituting a partnership or joint venture between you and Napster, or an employee-employer relationship.
+
+23. Third Party Beneficiaries
+In addition to these Platform Terms, your use of the Napster Platform and Music Content is subject to the separate Platform use requirements, if any, of each of the Music Content Providers. You hereby acknowledge and agree that the Music Content Providers are third party beneficiaries with respect to these Platform Terms with full power and authority to enforce the provisions of these Platform Terms as if a direct party hereto, including, without limitation, the ability to terminate the licenses granted to you under these Platform Terms at any time for any reason.
+
+24. Survival
+Upon termination of these Platform Terms, any provision which, by its nature or express terms should survive, will survive such termination or expiration, including, but not limited to, Sections 6, 8, 10, 13, and 15-27.
+
+25. Legal Review
+It is acknowledged that these Platform Terms were initially prepared by Napster. However, you acknowledge and agree that you had an opportunity to have a lawyer review and counsel you regarding these Platform Terms prior to accepting these Platform Terms, even if you chose not to consult a lawyer. You therefore agree that, in interpreting any issues which may arise, any rules of construction related to who prepared these Platform Terms shall be inapplicable, and no provision shall be construed against Napster because Napster drafted such provision.
+
+26. Headings
+The heading references herein are for convenience purposes only, do not constitute a part of these Platform Terms, and will not be deemed to limit or affect any of the provisions hereof.
+
+Last Updated: March 31, 2014

@@ -1,0 +1,1 @@
+pod 'NapsterKit', '~> 1.0.0'

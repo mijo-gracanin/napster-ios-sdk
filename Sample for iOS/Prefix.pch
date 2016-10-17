@@ -1,0 +1,18 @@
+#import <Availability.h>
+
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iOS SDK 6.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <AVFoundation/AVFoundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <NapsterKit/NapsterKit.h>
+    #import "NSArray+NKExtensions.h"
+    #import "NSDictionary+NKSExtensions.h"
+    #import "UIColor+NKSExtensions.h"
+    #import "NKSCommon.h"
+    #import "NKNapster+Extensions.h"
+#endif
