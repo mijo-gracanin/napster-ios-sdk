@@ -25,3 +25,4 @@
 #import "NKAlbumStub+Parsing.h"
 #import "NKArtistStub+Parsing.h"
 #import "NKStation+Parsing.h"
+#import "NKAudioFormat+Parsing.h"

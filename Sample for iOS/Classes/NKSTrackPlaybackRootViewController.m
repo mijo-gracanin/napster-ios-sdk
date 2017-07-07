@@ -12,7 +12,6 @@
 #import "NKSLoadingOverlay.h"
 #import "NKSQueueTableCell.h"
 #import "NKTrackListPlayer.h"
-#import "NKSActionSheet.h"
 #import "NKSNetworkActivityIndicatorController.h"
 #import "NKSFavoritesViewController.h"
 #import "NKAPI+Parsing.h"
@@ -216,12 +215,24 @@
 - (void)tableView:(UITableView*)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath
 {
     NKTrack* track = [[self tracks] objectAtIndex:[indexPath row]];
-    NKSActionSheet* actionSheet = [NKSActionSheet new];
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"Add to Favorites", nil) clicked:^{
-        [self addTrackToFavorites:track];
-    }];
-    [actionSheet addCancelButtonWithTitle:NSLocalizedString(@"Cancel", nil)];
-    [actionSheet showInView:[[self view] window]];
+    UIAlertController* actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    __weak id wSelf = self;
+    
+    UIAlertAction* addAction = [UIAlertAction actionWithTitle:@"Add to Favorites" style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction * action) {
+                                                          id sSelf = wSelf;
+                                                          [sSelf addTrackToFavorites:track];
+                                                      }];
+    
+    [actionSheet addAction:addAction];
+    
+    UIAlertAction* cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel
+                                                      handler:^(UIAlertAction * action) {  }];
+    
+    [actionSheet addAction:cancelAction];
+    
+    [self presentViewController:actionSheet animated:YES completion:nil];
 }
 
 #pragma mark - Notification handlers
