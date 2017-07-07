@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E365EBA1F0E769400F2628C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E365EB91F0E769400F2628C /* Security.framework */; };
+		2E365EBC1F0E76B800F2628C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E365EBB1F0E76B800F2628C /* QuartzCore.framework */; };
+		2E365EBE1F0E76D100F2628C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E365EBD1F0E76D100F2628C /* UIKit.framework */; };
+		2E365EC01F0E76EB00F2628C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E365EBF1F0E76EB00F2628C /* SystemConfiguration.framework */; };
+		2ED6A6CE1F0E5BBF00A1F5F2 /* NKSTrack+Favorites.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6A6CD1F0E5BBF00A1F5F2 /* NKSTrack+Favorites.m */; };
 		C80619881A02F5E000F34130 /* NapsterKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C80619861A02F5E000F34130 /* NapsterKit.bundle */; };
 		C80619891A02F5E000F34130 /* NapsterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80619871A02F5E000F34130 /* NapsterKit.framework */; };
 		C80619A21A03000E00F34130 /* NKSTrackPlaybackRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80619A11A03000E00F34130 /* NKSTrackPlaybackRootView.xib */; };
 		C81DD89519FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD89419FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.m */; };
 		C81DD89819FAC40C0011F1FA /* NKSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD89719FAC40C0011F1FA /* NKSAppDelegate.m */; };
 		C81DD89B19FAC4270011F1FA /* NKSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD89A19FAC4270011F1FA /* NKSAlertView.m */; };
-		C81DD89E19FAC42E0011F1FA /* NKSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD89D19FAC42E0011F1FA /* NKSActionSheet.m */; };
 		C81DD8A219FAC4710011F1FA /* NKSLoadingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD8A019FAC4710011F1FA /* NKSLoadingOverlay.m */; };
 		C81DD8A319FAC4710011F1FA /* NKSLoadingOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = C81DD8A119FAC4710011F1FA /* NKSLoadingOverlay.xib */; };
 		C81DD8A719FAC5A60011F1FA /* NKSQueueTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C81DD8A519FAC5A60011F1FA /* NKSQueueTableCell.m */; };
@@ -74,6 +78,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E365EB91F0E769400F2628C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2E365EBB1F0E76B800F2628C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2E365EBD1F0E76D100F2628C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E365EBF1F0E76EB00F2628C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2ED6A6CC1F0E5BB700A1F5F2 /* NKSTrack+Favorites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NKSTrack+Favorites.h"; path = "Sample for iOS/NKSTrack+Favorites.h"; sourceTree = SOURCE_ROOT; };
+		2ED6A6CD1F0E5BBF00A1F5F2 /* NKSTrack+Favorites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NKSTrack+Favorites.m"; path = "Sample for iOS/NKSTrack+Favorites.m"; sourceTree = SOURCE_ROOT; };
 		C80619861A02F5E000F34130 /* NapsterKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NapsterKit.bundle; sourceTree = "<group>"; };
 		C80619871A02F5E000F34130 /* NapsterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NapsterKit.framework; sourceTree = "<group>"; };
 		C80619A11A03000E00F34130 /* NKSTrackPlaybackRootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKSTrackPlaybackRootView.xib; path = "Sample for iOS/Classes/NKSTrackPlaybackRootView.xib"; sourceTree = SOURCE_ROOT; };
@@ -84,8 +94,6 @@
 		C81DD89719FAC40C0011F1FA /* NKSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSAppDelegate.m; path = "Sample for iOS/Classes/NKSAppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		C81DD89919FAC4270011F1FA /* NKSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSAlertView.h; path = "Sample for iOS/Classes/NKSAlertView.h"; sourceTree = SOURCE_ROOT; };
 		C81DD89A19FAC4270011F1FA /* NKSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSAlertView.m; path = "Sample for iOS/Classes/NKSAlertView.m"; sourceTree = SOURCE_ROOT; };
-		C81DD89C19FAC42E0011F1FA /* NKSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSActionSheet.h; path = "Sample for iOS/Classes/NKSActionSheet.h"; sourceTree = SOURCE_ROOT; };
-		C81DD89D19FAC42E0011F1FA /* NKSActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSActionSheet.m; path = "Sample for iOS/Classes/NKSActionSheet.m"; sourceTree = SOURCE_ROOT; };
 		C81DD89F19FAC4710011F1FA /* NKSLoadingOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKSLoadingOverlay.h; path = "Sample for iOS/Classes/NKSLoadingOverlay.h"; sourceTree = SOURCE_ROOT; };
 		C81DD8A019FAC4710011F1FA /* NKSLoadingOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKSLoadingOverlay.m; path = "Sample for iOS/Classes/NKSLoadingOverlay.m"; sourceTree = SOURCE_ROOT; };
 		C81DD8A119FAC4710011F1FA /* NKSLoadingOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKSLoadingOverlay.xib; path = "Sample for iOS/Classes/NKSLoadingOverlay.xib"; sourceTree = SOURCE_ROOT; };
@@ -176,6 +184,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E365EC01F0E76EB00F2628C /* SystemConfiguration.framework in Frameworks */,
+				2E365EBE1F0E76D100F2628C /* UIKit.framework in Frameworks */,
+				2E365EBC1F0E76B800F2628C /* QuartzCore.framework in Frameworks */,
+				2E365EBA1F0E769400F2628C /* Security.framework in Frameworks */,
 				C81DD8BB19FAC6F50011F1FA /* AudioToolbox.framework in Frameworks */,
 				C81DD8B919FAC6EE0011F1FA /* AVFoundation.framework in Frameworks */,
 				C81DD8B719FAC6E60011F1FA /* CoreData.framework in Frameworks */,
@@ -200,6 +212,10 @@
 		C81DD8BC19FAC6F90011F1FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E365EBF1F0E76EB00F2628C /* SystemConfiguration.framework */,
+				2E365EBD1F0E76D100F2628C /* UIKit.framework */,
+				2E365EBB1F0E76B800F2628C /* QuartzCore.framework */,
+				2E365EB91F0E769400F2628C /* Security.framework */,
 				C81DD8BA19FAC6F50011F1FA /* AudioToolbox.framework */,
 				C81DD8B819FAC6EE0011F1FA /* AVFoundation.framework */,
 				C81DD8B619FAC6E60011F1FA /* CoreData.framework */,
@@ -344,13 +360,13 @@
 		C8C0902619FAAC9600D4650E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2ED6A6CC1F0E5BB700A1F5F2 /* NKSTrack+Favorites.h */,
+				2ED6A6CD1F0E5BBF00A1F5F2 /* NKSTrack+Favorites.m */,
 				C81DD89F19FAC4710011F1FA /* NKSLoadingOverlay.h */,
 				C81DD8A019FAC4710011F1FA /* NKSLoadingOverlay.m */,
 				C81DD8A119FAC4710011F1FA /* NKSLoadingOverlay.xib */,
 				C81DD89919FAC4270011F1FA /* NKSAlertView.h */,
 				C81DD89A19FAC4270011F1FA /* NKSAlertView.m */,
-				C81DD89C19FAC42E0011F1FA /* NKSActionSheet.h */,
-				C81DD89D19FAC42E0011F1FA /* NKSActionSheet.m */,
 				C81DD8AC19FAC6870011F1FA /* UIColor+NKSExtensions.h */,
 				C81DD8AD19FAC6870011F1FA /* UIColor+NKSExtensions.m */,
 				C81DD8AF19FAC6AC0011F1FA /* NKSRootViewController.h */,
@@ -528,13 +544,13 @@
 				C81DD8A219FAC4710011F1FA /* NKSLoadingOverlay.m in Sources */,
 				C8C08F8A19FAA43800D4650E /* NKNaturalSequencing.m in Sources */,
 				C8DC769119FA9592005122F4 /* main.m in Sources */,
+				2ED6A6CE1F0E5BBF00A1F5F2 /* NKSTrack+Favorites.m in Sources */,
 				C8C0906919FAACC600D4650E /* NKSTrackPlaybackRootViewController.m in Sources */,
 				C8C08F8C19FAA43800D4650E /* NKSequenceItem.m in Sources */,
 				C81DD8B119FAC6AC0011F1FA /* NKSRootViewController.m in Sources */,
 				C81DD89819FAC40C0011F1FA /* NKSAppDelegate.m in Sources */,
 				C8C0900A19FAAC3A00D4650E /* NKSFavoritesViewController.m in Sources */,
 				C81DD89519FAC3F50011F1FA /* NKSNetworkActivityIndicatorController.m in Sources */,
-				C81DD89E19FAC42E0011F1FA /* NKSActionSheet.m in Sources */,
 				C81DD8AB19FAC5C60011F1FA /* NSDictionary+NKSExtensions.m in Sources */,
 				C81DD8A719FAC5A60011F1FA /* NKSQueueTableCell.m in Sources */,
 			);
@@ -583,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -626,7 +642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -652,6 +668,7 @@
 				);
 				INFOPLIST_FILE = "Sample for iOS/TrackPlaybackSample-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.napster.Track-Playback";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -669,6 +686,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "TRACK_PLAYBACK_SAMPLE=1";
 				INFOPLIST_FILE = "Sample for iOS/TrackPlaybackSample-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.napster.Track-Playback";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

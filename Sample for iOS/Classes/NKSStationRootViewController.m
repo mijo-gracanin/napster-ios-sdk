@@ -168,7 +168,7 @@
 -(void)updateStationPicker {
     UIBarButtonItem* buttonItem = self.napster.isSessionOpen
         ?  [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Pick Station", nil)
-                                            style:UIBarButtonItemStyleBordered
+                                            style:UIBarButtonItemStylePlain
                                            target:self
                                            action:@selector(pickStation)]
         : nil;
