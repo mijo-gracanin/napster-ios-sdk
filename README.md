@@ -6,7 +6,7 @@ The Napster iOS SDK was designed to provide a very easy way to integrate streami
 
 ## Requirements
 
-NapsterKit requires iOS 7.0 or later.
+NapsterKit requires iOS 8.4 or later.
 
 ## Documentation
 
