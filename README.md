@@ -6,7 +6,7 @@ The Napster iOS SDK was designed to provide a very easy way to integrate streami
 
 ## Requirements
 
-NapsterKit requires iOS 8.4 or later.
+NapsterKit requires iOS 7.0 or later.
 
 ## Documentation
 
@@ -22,7 +22,7 @@ Documented header files can be found within the framework.
 1. Drag `NapsterKit.framework` and `NapsterKit.bundle` into your project directory and then into Xcode.
 2. Add `#import <NapsterKit/NapsterKit.h>` in your target's `Prefix.pch` (or other project-wide common header).
 3. Add `-ObjC` to Other Linker Flags for your target.
-4. Add `AudioToolbox.framework`, `CoreData.framework` and `SystemConfiguration.framework` to your target.
+4. Add `AudioToolbox.framework`, `CoreData.framework`, `SystemConfiguration.framework`, `CoreGraphics.framework` and `AVFoundation.framework` to your target.
 
 ## Setting Your App’s OAuth Consumer Key
 
