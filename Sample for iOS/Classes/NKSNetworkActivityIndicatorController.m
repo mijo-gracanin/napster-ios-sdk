@@ -17,14 +17,6 @@
 
 @implementation NKSNetworkActivityIndicatorController
 
-+ (void)load
-{
-    @autoreleasepool {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(napsterNetworkActivityBegan:) name:NKNotificationNetworkRequestBegan object:nil];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(napsterNetworkActivityEnded:) name:NKNotificationNetworkRequestEnded object:nil];
-    }
-}
-
 + (NKSNetworkActivityIndicatorController*)shared
 {
     static NKSNetworkActivityIndicatorController* _shared = nil;
@@ -51,12 +43,18 @@
     });
 }
 
-- (id)init
-{
+- (id)init {
     self = [super init];
     if (!self) return nil;
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(napsterNetworkActivityBegan:) name:NKNotificationNetworkRequestBegan object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(napsterNetworkActivityEnded:) name:NKNotificationNetworkRequestEnded object:nil];
+    
     return self;
+}
+
+- (void)dealloc {
+    [NSNotificationCenter.defaultCenter removeObserver:self];
 }
 
 - (void)setActivitiesCount:(NSUInteger)activitiesCount
