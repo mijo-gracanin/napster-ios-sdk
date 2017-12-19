@@ -10,7 +10,8 @@
 
 @interface NKSNetworkActivityIndicatorController : NSObject
 
-+ (void)incrementActivities;
-+ (void)decrementActivities;
++ (NKSNetworkActivityIndicatorController*)shared;
+- (void)incrementActivities;
+- (void)decrementActivities;
 
 @end

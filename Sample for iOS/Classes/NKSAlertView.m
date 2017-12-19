@@ -121,25 +121,25 @@
     return [self addButtonWithTitle:title clicked:nil willDismiss:nil didDismiss:nil];
 }
 
-- (NSInteger)addButtonWithTitle:(NSString*)title clicked:(void (^)())handler
+- (NSInteger)addButtonWithTitle:(NSString*)title clicked:(void (^)(void))handler
 {
     return [self addButtonWithTitle:title clicked:handler willDismiss:nil didDismiss:nil];
 }
 
-- (NSInteger)addButtonWithTitle:(NSString*)title willDismiss:(void (^)())handler
+- (NSInteger)addButtonWithTitle:(NSString*)title willDismiss:(void (^)(void))handler
 {
     return [self addButtonWithTitle:title clicked:nil willDismiss:handler didDismiss:nil];
 }
 
-- (NSInteger)addButtonWithTitle:(NSString*)title didDismiss:(void (^)())handler
+- (NSInteger)addButtonWithTitle:(NSString*)title didDismiss:(void (^)(void))handler
 {
     return [self addButtonWithTitle:title clicked:nil willDismiss:nil didDismiss:handler];
 }
 
 - (NSInteger)addButtonWithTitle:(NSString*)title
-                 clicked:(void (^)())clickedHandler
-             willDismiss:(void (^)())willDismissHandler
-              didDismiss:(void (^)())didDismissHandler
+                        clicked:(void (^)(void))clickedHandler
+                    willDismiss:(void (^)(void))willDismissHandler
+                     didDismiss:(void (^)(void))didDismissHandler
 {
     NSInteger buttonIndex = [[self alertView] addButtonWithTitle:title];
         
@@ -157,7 +157,7 @@
     return buttonIndex;
 }
 
-- (void)setHandler:(void (^)())handler buttonIndex:(NSInteger)buttonIndex dictionary:(NSMutableDictionary*)dictionary
+- (void)setHandler:(void (^)(void))handler buttonIndex:(NSInteger)buttonIndex dictionary:(NSMutableDictionary*)dictionary
 {
     if (handler) {
         dictionary[@(buttonIndex)] = [handler copy];
@@ -170,7 +170,7 @@
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    void (^handler)() = [self clickedHandlersByButtonIndex][@(buttonIndex)];
+    void (^handler)(void) = [self clickedHandlersByButtonIndex][@(buttonIndex)];
     if (handler) handler();
 }
 
@@ -178,7 +178,7 @@
 {
     if ([self willDismissHandler]) [self willDismissHandler](buttonIndex);
     
-    void (^handler)() = [self willDismissHandlersByButtonIndex][@(buttonIndex)];
+    void (^handler)(void) = [self willDismissHandlersByButtonIndex][@(buttonIndex)];
     if (handler) handler();
 }
 
@@ -186,7 +186,7 @@
 {
     if ([self didDismissHandler]) [self didDismissHandler](buttonIndex);
     
-    void (^handler)() = [self didDismissHandlersByButtonIndex][@(buttonIndex)];
+    void (^handler)(void) = [self didDismissHandlersByButtonIndex][@(buttonIndex)];
     if (handler) handler();
     
     [[[self class] alertViews] removeObject:self];

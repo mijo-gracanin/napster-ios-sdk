@@ -257,7 +257,7 @@ beforeNotifications:nil];
             shuffling:(BOOL)shuffling
            repeatMode:(NKRepeatMode)repeatMode
       playbackContext:(id<NSCopying>)playbackContext
-  beforeNotifications:(void (^)())beforeNotifications
+  beforeNotifications:(void (^)(void))beforeNotifications
 {
     BOOL tracksChanged = ![self.tracks isEqual:tracks];
     [self willChangeValueForKey:@"tracks"];
@@ -271,7 +271,7 @@ beforeNotifications:nil];
     BOOL currentTrackChanged = self.currentSequenceItem.track != sequenceItem.track;
     BOOL shufflingChanged = shuffling != _shuffling;
     BOOL repeatModeChanged = repeatMode != _repeatMode;
-    BOOL playbackContextChanged = ![[self playbackContext] isEqual:playbackContext];
+    BOOL playbackContextChanged = ![self.playbackContext isEqual:playbackContext];
     
     if (currentTrackChanged)    [self willChangeValueForKey:@"currentTrack"];
     if (shufflingChanged)       [self willChangeValueForKey:@"shuffling"];

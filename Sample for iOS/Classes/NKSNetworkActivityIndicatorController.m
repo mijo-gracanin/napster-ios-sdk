@@ -10,7 +10,7 @@
 
 @interface NKSNetworkActivityIndicatorController ()
 
-@property (assign, nonatomic) NSUInteger activitiesCount;
+@property (nonatomic) NSUInteger activitiesCount;
 @property (nonatomic) NSDate* lastUpdatedIndicatorAt;
 
 @end
@@ -27,19 +27,20 @@
     return _shared;
 }
 
-+ (void)incrementActivities
+- (void)incrementActivities
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        NKSNetworkActivityIndicatorController* controller = [self shared];
-        [controller setActivitiesCount:[controller activitiesCount] + 1];
+        self.activitiesCount += 1;
     });
 }
 
-+ (void)decrementActivities
+- (void)decrementActivities
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        NKSNetworkActivityIndicatorController* controller = [self shared];
-        [controller setActivitiesCount:[controller activitiesCount] - 1];
+        if (self.activitiesCount == 0) {
+            return;
+        }
+        self.activitiesCount -= 1;
     });
 }
 
@@ -68,7 +69,7 @@
 {
     [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updateIndicator) object:nil];
     
-    BOOL shouldIndicatorBeVisible = [self activitiesCount] > 0;
+    BOOL shouldIndicatorBeVisible = self.activitiesCount > 0;
     UIApplication* application = [UIApplication sharedApplication];
     if ([application isNetworkActivityIndicatorVisible] == shouldIndicatorBeVisible) {
         return;
@@ -107,12 +108,12 @@
 
 #pragma mark - Notification handlers
 
-+ (void)napsterNetworkActivityBegan:(NSNotification*)notification
+- (void)napsterNetworkActivityBegan:(NSNotification*)notification
 {
     [self incrementActivities];
 }
 
-+ (void)napsterNetworkActivityEnded:(NSNotification*)notification
+- (void)napsterNetworkActivityEnded:(NSNotification*)notification
 {
     [self decrementActivities];
 }

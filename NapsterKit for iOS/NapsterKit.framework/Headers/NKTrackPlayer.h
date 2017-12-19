@@ -32,19 +32,18 @@
  *  @param playbackContext           - Custom object that could be later retrieved using `playbackContext` property.
  */
 
-- (void)            playTrack:(NKTrack*)track;
+- (void)playTrack:(NKTrack *)track;
 
-- (void)            playTrack:(NKTrack*)track
-                  containerID:(NSString*)containerID;
+- (void)playTrack:(NKTrack *)track containerID:(NSString*)containerID;
 
-- (void)            playTrack:(NKTrack*)track
-                  containerID:(NSString*)containerID
-           eagerlyCacheTracks:(NSArray*)eagerlyCacheTracks;
+- (void)playTrack:(NKTrack *)track
+      containerID:(NSString *)containerID
+eagerlyCacheTracks:(NSArray *)eagerlyCacheTracks;
 
-- (void)            playTrack:(NKTrack*)track
-                  containerID:(NSString*)containerID
-           eagerlyCacheTracks:(NSArray*)eagerlyCacheTracks
-              playbackContext:(id<NSObject>)playbackContext;
+- (void)playTrack:(NKTrack *)track
+      containerID:(NSString *)containerID
+eagerlyCacheTracks:(NSArray *)eagerlyCacheTracks
+  playbackContext:(id<NSObject>)playbackContext;
 
 #pragma mark -
 

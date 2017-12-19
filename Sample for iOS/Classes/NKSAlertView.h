@@ -21,13 +21,13 @@
 @property (nonatomic, readonly) NSInteger firstOtherButtonIndex;
 
 - (NSInteger)addButtonWithTitle:(NSString*)title;
-- (NSInteger)addButtonWithTitle:(NSString*)title clicked:(void (^)())handler;
-- (NSInteger)addButtonWithTitle:(NSString*)title willDismiss:(void (^)())handler;
-- (NSInteger)addButtonWithTitle:(NSString*)title didDismiss:(void (^)())handler;
+- (NSInteger)addButtonWithTitle:(NSString*)title clicked:(void (^)(void))handler;
+- (NSInteger)addButtonWithTitle:(NSString*)title willDismiss:(void (^)(void))handler;
+- (NSInteger)addButtonWithTitle:(NSString*)title didDismiss:(void (^)(void))handler;
 - (NSInteger)addButtonWithTitle:(NSString*)title
-                        clicked:(void (^)())clicked
-                    willDismiss:(void (^)())willDismiss
-                     didDismiss:(void (^)())didDismiss;
+                        clicked:(void (^)(void))clicked
+                    willDismiss:(void (^)(void))willDismiss
+                     didDismiss:(void (^)(void))didDismiss;
 - (NSInteger)addCancelButtonWithTitle:(NSString*)title;
 
 - (NSString*)buttonTitleAtIndex:(NSInteger)buttonIndex;

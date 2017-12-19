@@ -103,7 +103,7 @@
                     completion:^(NSDictionary* tracksDict, NSError* error) {
         __weak NKSTrackPlaybackRootViewController* viewController = self;
                         
-        [NKSNetworkActivityIndicatorController decrementActivities];
+        [NKSNetworkActivityIndicatorController.shared decrementActivities];
         [[viewController loadingOverlay] setHidden:YES];
         if (error) {
             NSLog(@"Error: %@", error);

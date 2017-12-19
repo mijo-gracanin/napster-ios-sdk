@@ -16,8 +16,8 @@
 #   import "NKSStationRootViewController.h"
 #endif
 
-#   define CONSUMER_KEY     @"CONSUMER_KEY"
-#   define CONSUMER_SECRET  @"CONSUMER_SECRET"
+#   define CONSUMER_KEY     @"ADD_API_KEY_HERE"
+#   define CONSUMER_SECRET  @"ADD_API_SECRET_HERE"
 
 #if TRACK_PLAYBACK_SAMPLE
 #   define BASE_URL         @"sample1://authorize"
@@ -110,7 +110,7 @@ static NSString* const kKeychainTokenKey = @"token";
     
     if ([[url host] isEqual:@"authorization-canceled"]) return YES;
 
-    void (^showErrorLoggingIn)() = ^() {
+    void (^showErrorLoggingIn)(void) = ^() {
         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Sign In Failed", nil) message:NSLocalizedString(@"The sign in request failed.", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil];
         [alertView show];
     };
@@ -311,7 +311,7 @@ static NSString* const kKeychainTokenKey = @"token";
 
 #pragma mark Authentication
 
-- (void)handleAuthenticationResponse:(NSDictionary*)response onError:(void(^)())onError {
+- (void)handleAuthenticationResponse:(NSDictionary*)response onError:(void(^)(void))onError {
     NSString *code = [response objectForKey:@"code"];
  
     [self.napster openSessionWithOAuthCode:code
