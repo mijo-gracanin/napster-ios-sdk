@@ -119,7 +119,7 @@
                              }
                              
                              NSArray *parsedTracks = [topTracks rk_map:^(id json) {
-                                 NKTrack *track = [NKTrack parseFromJson:json];
+                                 NKTrack *track = [NKTrack parseFromJson:json error:nil];
                                  return track;
                              }];
                              

@@ -27,7 +27,7 @@
     [playlist setAuthor:payload[@"author"]];
     [playlist setCreatedAt:[NSDate dateWithTimeIntervalSince1970:[payload[@"created"] doubleValue] / 1000.0]];
     [playlist setTracks:[payload[@"tracks"] rk_map:^id(id value) {
-        return [NKTrack parseFromJson:value];
+        return [NKTrack parseFromJson:value error:nil];
     }]];
     
     return playlist;

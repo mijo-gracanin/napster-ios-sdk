@@ -121,7 +121,7 @@
         }
                         
         for (NSDictionary *trackJson in tracks) {
-            NKTrack *track = [NKTrack parseFromJson:trackJson];
+            NKTrack *track = [NKTrack parseFromJson:trackJson error:nil];
             
             if (track != nil) {
                 [viewController.tracks addObject:track];

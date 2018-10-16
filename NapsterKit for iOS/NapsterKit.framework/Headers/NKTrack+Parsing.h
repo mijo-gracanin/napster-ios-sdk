@@ -10,7 +10,7 @@
 
 @interface NKTrack (Parsing)
 
-+(instancetype)parseFromJson:(id)json;
++ (instancetype)parseFromJson:(NSDictionary*)json error:(NSError **)error;
 
 -(BOOL)validate:(NSError**)error;
 
